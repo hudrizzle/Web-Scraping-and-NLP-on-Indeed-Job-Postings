@@ -6,7 +6,7 @@ The motivation of this project is based on the observation that Data science rol
 
 ### Overview
 
-In this project, I built a web scraper, which used BeautifulSoup to parse data science related job listings in multiple cities across the US. This scraper pulled 2,000 postings for jobs per location. The detailed job descriptions were also collected for the Natural language Processing using TF-IDF, and were clustered into 3 groups based on latent semantic structures.   
+In the first part, I built [a web scraper](Web Scraping Indeed (part 1).ipynb), which used BeautifulSoup to parse data science related job listings in multiple cities across the US. This scraper pulled 2,000 postings for [jobs](Indeed_data.csv) per location. In this second part [NLP](Clustering job postings (part 2).ipynb), the detailed [job descriptions](JD.txt) were also collected for the Natural language Processing using TF-IDF, and were clustered into 3 groups based on latent semantic structures.   
 
 ### Keypoints
 •	Preprocessed the text by tokenizing, stemming and stop-words removing, and extracted features by term frequency-inverse document frequency approach
